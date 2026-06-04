@@ -89,20 +89,24 @@ sequenceDiagram
 
 ---
 
-## 📸 Live Demo
+## 📊 Sample Results
 
-> Screenshots and demo coming soon
+### 📄 Generated Analysis Report
+[View Full PDF Analysis](results/lab_report_analysis%20(1).pdf)
 
----
+### 🖼️ Report Comparison — Original vs AI Analysis
+![Lab Report Comparison](results/lab_report_comparison.png)
 
-## 🎥 Demo Video
+### 🎙️ Urdu Voice Summary
+> 🔊 [Listen to Urdu Voice Summary](results/lab_report_summary.mp3)
 
-> Demo video coming soon
+> *AI-generated Urdu audio explanation of the lab results — 
+> making medical data accessible to low-literacy patients*
 
 ---
 
 > ⚠️ **Note:** This repository showcases the architecture and design 
-> of a production system built at Oladoc. Source code is proprietary.
+> of a production system. Source code is proprietary.
 
 ---
 
