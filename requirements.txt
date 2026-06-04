@@ -1,0 +1,9 @@
+google-cloud-vision
+langgraph
+langchain
+langchain-openai
+med7
+pydantic
+dotenv
+pillow
+spacy
