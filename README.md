@@ -1,4 +1,4 @@
-🧪 **AI Lab Report Analyzer — Vision-OCR + Urdu Voice Summary**
+# 🧪 **AI Lab Report Analyzer — Vision-OCR + Urdu Voice Summary**
 
 > **Production AI system** that photographs any lab test report and 
 > instantly generates a complete patient-friendly analysis with 
