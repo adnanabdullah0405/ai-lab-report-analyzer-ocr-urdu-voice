@@ -1,4 +1,4 @@
-🧪 AI Lab Report Analyzer — Vision-OCR + Urdu Voice Summary
+🧪 **AI Lab Report Analyzer — Vision-OCR + Urdu Voice Summary**
 
 > **Production AI system** that photographs any lab test report and 
 > instantly generates a complete patient-friendly analysis with 
@@ -26,29 +26,14 @@
 
 ---
 
-## 🏗️ System Architecture
+## 🏗️ LangGraph Pipeline Architecture
 
-```mermaid
-graph TD
-    A[📸 Photo of Lab Report] --> B[FastAPI Endpoint]
-    B --> C[GPT-4o Vision]
-    C --> D[Report Parser Agent]
-    D --> E[Per-Test Analyzer]
-    
-    E --> F{Normal or Abnormal?}
-    F -->|Normal| G[✅ Normal Flag + Explanation]
-    F -->|Abnormal| H[⚠️ Abnormal Flag + Health Implication]
-    
-    G --> I[Structured Digital Summary]
-    H --> I
-    
-    I --> J[Patient-Friendly Report]
-    I --> K[ElevenLabs TTS]
-    K --> L[🎙️ Urdu Voice Summary]
-    
-    J --> M[Patient Receives Analysis]
-    L --> M
-```
+![System Architecture](architecture/system-architecture.png)
+
+> **Smart conditional routing** — if the uploaded image cannot be 
+> processed (poor quality or invalid document), the pipeline 
+> gracefully rejects. On success: vision extraction → PDF 
+> generation → Urdu voice → final summary.
 
 ---
 
